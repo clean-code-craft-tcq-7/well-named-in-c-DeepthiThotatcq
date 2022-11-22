@@ -1,4 +1,5 @@
 #include "main.h"
+#include "colorcode_configuration.h"
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
  sprintf(buffer, "%s %s",
  MajorColorNames[colorPair->majorColor],
