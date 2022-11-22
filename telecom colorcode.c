@@ -1,4 +1,4 @@
-#include "25_pair_colorcode_functions.h"
+#include "telecom colorcode.h"
 
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
