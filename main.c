@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "25_pair_colorcode_functions.h"
+#include "telecom colorcode.h"
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
