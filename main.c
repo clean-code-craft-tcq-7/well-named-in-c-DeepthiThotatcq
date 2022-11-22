@@ -29,7 +29,7 @@ void testPairToNumber(
     assert(pairNumber == expectedPairNumber);
 }
 int main() {
-    printtable();
+    print();
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
     testPairToNumber(BLACK, ORANGE, 12);
