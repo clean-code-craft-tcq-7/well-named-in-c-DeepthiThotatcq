@@ -38,8 +38,7 @@ void printtable() {
        if (pairNumber % 5 == 0)       
            printf("%s ", MajorColorNames[pairNumber / 5]);
         else 
-            printf("\t");
-     
+       printf("\t");    
        printf("\t \t \t %s \t", MinorColorNames[pairNumber % 5]);
        printf("\n");
     }
