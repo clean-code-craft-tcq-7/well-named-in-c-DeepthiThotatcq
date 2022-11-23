@@ -33,7 +33,7 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
 
 void printcolorcode() {
     printf("Major color \t \t Minor color\n ");
-    Printf("************************************\n");
+    printf("************************************\n");
     for (int pairNumber = 0;pairNumber < 25; pairNumber++) {
        if (pairNumber % 5 == 0)       
            printf("%s ", MajorColorNames[pairNumber / 5]);
