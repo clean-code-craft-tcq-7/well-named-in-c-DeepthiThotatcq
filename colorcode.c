@@ -34,7 +34,7 @@ int main() {
     testNumberToPair(5, WHITE, SLATE);
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
-    Printf("************************************\n");
+    printf("************************************\n");
     printf("Telecomunication color code table\n");
     printf("************************************\n");
     printcolorcode();
