@@ -1,5 +1,4 @@
 #include "telecom colorcode.h"
-#include "decom.h"
 
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
