@@ -36,7 +36,7 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
     Printf("************************************\n");
     printf("Telecomunication color code table\n");
-    Printf("************************************\n");
+    printf("************************************\n");
     printcolorcode();
     return 0;
 }
