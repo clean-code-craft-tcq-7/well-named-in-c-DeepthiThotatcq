@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
-#include "telecom colorcode.h"
 #include "decom.h"
+#include "telecom colorcode.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
