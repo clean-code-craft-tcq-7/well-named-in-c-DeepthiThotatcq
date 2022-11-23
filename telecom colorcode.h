@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <assert.h>
-#include <decom.h>
+#include "decom.h"
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
