@@ -43,5 +43,4 @@ void printtable() {
        printf("\t \t \t %s \t", MinorColorNames[pairNumber % 5]);
        printf("\n");
     }
-     printf("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n");
 }
