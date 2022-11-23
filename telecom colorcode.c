@@ -34,7 +34,7 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
 }
 
 void printtable() {
-    printf("No \t \t Major color \t \t Minor color\n ");
+    printf("Major color \t \t Minor color\n ");
     for (int pairNumber = 0;pairNumber < 25; pairNumber++) {
        printf("%d \t", pairNumber+1);
        if (pairNumber % 5 == 0)       
