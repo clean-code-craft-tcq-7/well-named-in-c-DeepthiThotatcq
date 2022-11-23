@@ -31,7 +31,7 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
             colorPair->minorColor + 1;
 }
 
-void printcolorcode() 
+void printcolorcode() {
     printf("Major color \t \t Minor color\n ");
     for (int pairNumber = 0;pairNumber < 25; pairNumber++) {
        if (pairNumber % 5 == 0)       
